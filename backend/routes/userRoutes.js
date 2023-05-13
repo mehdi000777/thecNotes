@@ -1,6 +1,6 @@
 import experss from 'express';
 import { createUser, deleteUser, getAllUsers, updateUser } from '../controllers/usersController.js';
-import verifyJWT from '../middlewares/verifyJwt.js';
+import verifyJWT from '../middlewares/verifyJWT.js';
 
 const router = experss.Router();
 
