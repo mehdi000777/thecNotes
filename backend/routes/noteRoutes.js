@@ -1,6 +1,6 @@
 import express from 'express';
 import { createNote, deleteNote, getAllNotes, updateNote } from '../controllers/notesController.js';
-import verifyJWT from '../middlewares/verifyJwt.js';
+import verifyJWT from '../middlewares/verifyJWT.js';
 
 const router = express.Router();
 
